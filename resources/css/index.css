@@ -1,0 +1,129 @@
+.rect{
+    width: 27px;
+    height: 9px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.mainNav{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #292B2E;
+}
+
+.line{
+    /* width: 1440px; */
+    height: 0px;
+    border: 1px solid #E1E4E8;
+}
+
+.Head1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #252B42;
+}
+
+.subHead{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #858585;
+}
+
+.cardHead{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #292B2E;
+}
+
+.cardText1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #586069;
+}
+
+.cardText2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #292B2E;
+}
+
+.Ellipse{
+    width: 5px;
+    height: 5px;
+    background: #586069;
+    border-radius: 4.5px;
+    /* display: inline-block; */
+    margin: auto 8px;
+    /* padding: 0px 20px; */
+}
+.p1{
+    display: inline-block;
+}
+.accordion-item{
+    border: 0px;
+}
+
+.accordion-button::after {
+    display:none;
+}
+
+.accordion-button::before {
+    display:block;
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+    box-sizing: border-box;
+}
+
+.accordion-button:not(.collapsed)::before {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    /* color: #737373 */
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: transparent;
+    box-shadow: 0px;
+}
+
+.accordion-button:focus {
+    border-color: white;
+    box-shadow: none;
+}
+
+/* @media only screen and (min-width: 480px) {
+    
+    #reservation {
+      width: 30vw;
+      position: fixed;
+    }
+  } */

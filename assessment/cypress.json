@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://localhost:8081/",
+    "fixturesFolder": "fixtures",
+    "integrationFolder": "specs",
+    "pluginsFile": "plugins",
+    "screenshotsFolder": "screenshots",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "spec, mocha-junit-reporter"
+    },
+    "retries": 2
+}

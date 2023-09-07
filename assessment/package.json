@@ -1,0 +1,32 @@
+{
+  "name": "xboard-integ-tests",
+  "version": "1.0.0",
+  "description": "Integration tests for XBoard git project",
+  "main": "index.js",
+  "scripts": {
+    "cy": "cypress",
+    "cy:open": "npm run cy open",
+    "test": "npm run cy run -- --config-file cypress.json",
+    "test-headed": "npm run cy run -- -q --headed --config-file cypress.json",
+    "cy:headless": "npm run cy run -- -q",
+    "ci": "npm run cy run -- -q"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "ui",
+    "test",
+    "test-headed",
+    "automation"
+  ],
+  "author": "Brine",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.3.0",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
